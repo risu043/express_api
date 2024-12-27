@@ -1,0 +1,38 @@
+{
+  "name": "express-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node -r tsconfig-paths/register --files ./bin/run_server.ts"
+  },
+  "prisma": {
+    "seed": "ts-node ./prisma/seed/waka.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-async-errors": "^3.1.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "@quramy/jest-prisma": "^1.8.1",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "prisma": "^6.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
