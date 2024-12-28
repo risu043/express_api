@@ -25,3 +25,11 @@ model Waka {
 
   @@map("waka")
 }
+
+model User {
+  id         Int    @id @default(autoincrement())
+  name  String
+  score   Int
+
+  @@map("user")
+}

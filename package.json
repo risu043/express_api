@@ -15,6 +15,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "express-async-errors": "^3.1.1",
+    "express-validator": "^7.2.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@quramy/jest-prisma": "^1.8.1",
     "@types/express": "^5.0.0",
+    "@types/express-validator": "^2.20.33",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
     "prisma": "^6.1.0",

@@ -15,7 +15,7 @@ wakasRouter.get('/search', async (req: any, res: any) => {
   res.json(data);
 });
 
-wakasRouter.get('/game', async (req: any, res: any) => {
+wakasRouter.get('/', async (req: any, res: any) => {
   const data = await getRandomWakas();
 
   res.json(data);
